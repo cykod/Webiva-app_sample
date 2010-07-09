@@ -1,0 +1,6 @@
+
+
+class AppSampleThing < DomainModel
+
+
+end

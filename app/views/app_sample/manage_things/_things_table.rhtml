@@ -1,0 +1,8 @@
+<% active_table_for :things_table, @tbl,
+   :actions => [[ 'Delete','delete', 'Delete the selected thing-a-ma-jiggies?']] do |t| %>
+<% active_tr 'thing',t.id do |tr| %>
+  <td><%= tr.checkbox %></td>
+  <td><%= h t.name %></td>
+  <td><%= h t.description %></td>
+<% end -%>
+<% end -%>

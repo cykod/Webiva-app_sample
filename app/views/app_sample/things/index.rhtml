@@ -1,0 +1,14 @@
+
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% @things.each do |thing| %>
+    <tr>
+      <td><%= link_to h(thing.name), thing %></td>
+      <td><%= h(thing.description) %></td>
+    </tr>
+  <% end -%>
+</table>

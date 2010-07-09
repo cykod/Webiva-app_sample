@@ -1,0 +1,7 @@
+<div class='admin_content'>
+  <% admin_form_for :thing, @thing do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_area :description %>
+    <%= f.cancel_submit_buttons %>
+  <% end -%>
+</div>

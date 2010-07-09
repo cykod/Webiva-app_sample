@@ -1,0 +1,11 @@
+This is a (incomplete) sample app written as a Webiva module that includes a custom route at
+/things for displaying the AppSample::ThingsController RESTful controller.
+
+To use this in a site, install the module as app_sample in vendor/modules/
+Activate the module inside of Webiva, 
+then add a page at /things into the site tree and a "Module App" paragraph where you would like
+the app to show up.
+
+License
+
+This sample module is free and unemcumbered software released into the public domain. For more information, see the included UNLICENSE file.
